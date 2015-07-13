@@ -1,12 +1,12 @@
 (function(){
   for( var i = 1; i <= 100; i++){
-    var messege = decideMessege(i);
-    console.log(messege);
+    var message = decidemessage(i);
+    console.log(message);
   }
 }());
-function decideMessege(num){
-  var messege = "";
-  if (num % 3 === 0) messege = "fizz";
-  if (num % 5 === 0) messege = messege + "Buzz";
-  return (messege === "")? num : messege;
+function decidemessage(num){
+  var message = "";
+  if (num % 3 === 0) message = "fizz";
+  if (num % 5 === 0) message = message + "Buzz";
+  return (message === "")? num : message;
 }
